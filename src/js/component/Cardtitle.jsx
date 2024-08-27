@@ -9,7 +9,7 @@ const Cardtitle = ({
 }) => {
 
     return (
-        <div className="card">
+        <div className="cardTitle">
             <div className="card-body">
                 <h1 className="card-title">{title}</h1>
                 <p className="card-text">{coment}</p>
