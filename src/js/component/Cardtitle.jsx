@@ -9,14 +9,20 @@ const Cardtitle = ({
 }) => {
 
     return (
-        <div className="card">
+        <div className="cardTitle">
             <div className="card-body">
-                <h1 className="card-title">A Warm Welcome!</h1>
-                <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, adipisci? Repellendus, perspiciatis? Atque necessitatibus sapiente doloribus nihil deleniti in rerum modi quas, inventore facere laboriosam magni nulla, repellendus obcaecati tenetur.</p>
-                <a href="#" className="btn btn-primary">Call to action! </a>
+                <h1 className="card-title">{title}</h1>
+                <p className="card-text">{coment}</p>
+                <a href={buttonURL} className="btn btn-primary">{buttonLabel}</a>
             </div>
         </div>
     )
+}
+Cardtitle.PropTypes = {
+    title: PropTypes.string,
+    coment: PropTypes.string,
+    buttonURL: PropTypes.string,
+    buttonLabel: PropTypes.string,
 }
 
 export default Cardtitle;

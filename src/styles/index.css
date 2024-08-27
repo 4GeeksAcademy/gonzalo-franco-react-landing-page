@@ -1,4 +1,13 @@
+.cardTitle{
+    background-color: rgb(206, 206, 206);
 
+}
+.cardfooter {
+    background-color: black;
+    color:white;
+    text-align:center;
+    padding: 5%;
+}
 /* 
 
     You can write your own styles here...
