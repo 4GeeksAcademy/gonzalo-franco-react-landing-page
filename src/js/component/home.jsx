@@ -11,9 +11,12 @@ const Home = () => {
 	return (
 		<div>
 			<><NavBar /></>
+			<div className ="p">
 			<><Cardtitle /></>
 			<><Cardbody/></>
+			</div>
 			<><Cardfooter/></>
+			
 		</div>
 
 	);

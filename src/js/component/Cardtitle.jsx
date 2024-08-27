@@ -9,12 +9,14 @@ const Cardtitle = ({
 }) => {
 
     return (
-        <div className="cardTitle">
+        <div className="container-fluid d-flex justify-content-center">
+        <div className="cardTitle col-8">
             <div className="card-body">
                 <h1 className="card-title">{title}</h1>
                 <p className="card-text">{coment}</p>
                 <a href={buttonURL} className="btn btn-primary">{buttonLabel}</a>
             </div>
+        </div>
         </div>
     )
 }
