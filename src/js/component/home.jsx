@@ -1,25 +1,20 @@
 import React from "react";
-import ReactDOM from "react";
 
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
 import NavBar from "./navbar.jsx";
-import Cardtitle from "./Cardtitle.jsx";
+import CardTittle from "./Cardtitle.jsx"
+import CardPost from "./cardpost.jsx"
 
 //create your first component
 const Home = () => {
 	return (
 		<>
-			<><NavBar /></>
-			<><Cardtitle /></>
+			<NavBar />
+			<CardTittle />
+			<CardPost />
 		</>
-
-
-
-
-
-
 	);
 };
 
 export default Home;
+
