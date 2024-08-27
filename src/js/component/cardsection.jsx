@@ -10,14 +10,16 @@ const posts = [
 ]
 const CardSection = () => {
     return (
-        <div className="container-fluid d-flex justify-content-between">
-            {
-                posts.map((post) => {
-                    return (
-                        <CardPost key={post.id} {...post} />
-                    )
-                })
-            }
+        <div className="container-fluid d-flex justify-content-center">
+            <div className="row col-8 row-cols-4 my-2 d-flex justify-content-center">
+                {
+                    posts.map((post) => {
+                        return (
+                            <CardPost key={post.id} {...post} />
+                        )
+                    })
+                }
+            </div>
         </div>
     )
 }
