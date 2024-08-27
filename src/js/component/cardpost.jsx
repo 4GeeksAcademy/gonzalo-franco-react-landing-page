@@ -7,7 +7,7 @@ const CardPost = ({
     description = "Random image from Picsum!"
 }) => {
     return (
-        <div className="col">
+        <div className="col col-12 col-sm-6 col-lg-4 col-xl-3">
             <div className="card m-2">
                 <img src={imgUrl} className="card-img-top" alt="Just an image" />
                 <div className="card-body">
