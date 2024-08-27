@@ -20,7 +20,7 @@ const NavBar = () => {
                             <a className="nav-link" href="#">Services</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                            <a className="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
                         </li>
                     </ul>
                 </div>
