@@ -3,15 +3,21 @@ import React from "react";
 //include images into your bundle
 import NavBar from "./navbar.jsx";
 import CardTittle from "./Cardtitle.jsx"
-import CardPost from "./cardpost.jsx"
+import CardSection from "./cardsection.jsx"
+
+
 
 //create your first component
 const Home = () => {
 	return (
 		<>
 			<NavBar />
-			<CardTittle />
-			<CardPost />
+			<div className="container-fluid col-8">
+				<div className="my-3">
+					<CardTittle />
+				</div>
+				<CardSection />
+			</div>
 		</>
 	);
 };
