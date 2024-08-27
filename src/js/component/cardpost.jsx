@@ -10,7 +10,7 @@ const CardPost = ({
 }) => {
     return (
         <div className="col col-12 col-sm-6 col-lg-4 col-xl-3">
-            <div className="card m-2">
+            <div className="card my-2">
                 <img src={imgUrl} className="card-img-top" alt="Just an image" />
                 <div className="card-body">
                     <h5 className="card-title text-center">{tittle}</h5>

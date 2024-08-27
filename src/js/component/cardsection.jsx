@@ -11,7 +11,7 @@ const posts = [
 const CardSection = () => {
     return (
         <div className="container-fluid d-flex justify-content-center">
-            <div className="row col-8 row-cols-4 my-2 d-flex justify-content-center">
+            <div className="row col-8 row-cols-4 my-2 d-flex justify-content-evenly">
                 {
                     posts.map((post) => {
                         return (
